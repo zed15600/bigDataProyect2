@@ -15,10 +15,11 @@ spark-submit newsLDA.py \<path> [options]
 Donde \<path> represneta la dirección del archivo que se quiere procesar
 
 Las opciones que acepta el programa son las siguientes:
-| comando | explicacion |
-| --------- | --- |
-| -k=n | Especifica el número de clusters en los que se clasificarón las noticias. Default = 10. |
-| -p=\<path> | Persiste datos de procesamiento en el directorio dado. Agiliza ejecuciones que usan las mismas bases. |
-| -r | Reemplaza los datos almacenados para una nueva ejecución. -p es requerido. |
-| -a | Imprime todos los resultados de la ejecución: Noticias con su relación en cada cluster y los datos de los temas. |
-| -c=n | Imprime las noticias relacionadas con el cluster dado. |
+
+ | comando | explicacion |
+ | --------- | --- |
+ | -k=n | Especifica el número de clusters en los que se clasificarón las noticias. Default = 10. |
+ | -p=\<path> | Persiste datos de procesamiento en el directorio dado. Agiliza ejecuciones que usan las mismas bases. |
+ | -r | Reemplaza los datos almacenados para una nueva ejecución. -p es requerido. |
+ | -a | Imprime todos los resultados de la ejecución: Noticias con su relación en cada cluster y los datos de los temas. |
+ | -c=n | Imprime las noticias relacionadas con el cluster dado. |
