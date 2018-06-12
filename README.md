@@ -9,9 +9,9 @@ Encontraré subsets de datos en la carpeta **data**
 
 ### Ejecución:
 Este programa debe ser ejecutado en el framework de computación Spark en la versión 2.3 utilizando Python en su versión 3.6 mediante el siguiente comando, y estando ubicado en la carpeta **src**:
-<rawtext>
+
 spark-submit newsLDA.py \<path> [options]
-</rawtext>
+
 Donde \<path> represneta la dirección del archivo que se quiere procesar
 
 Las opciones que acepta el programa son las siguientes:
