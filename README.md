@@ -1,24 +1,24 @@
-# bigDataProyect2
+ï»¿# bigDataProyect2
 
 # News Clusterer
-Clusterizador de noticias en base a los tópicos que tratan utilizando el algoritmo LDA (Latent Driclet Allocation)
+Clusterizador de noticias en base a los temas que tratan utilizando el algoritmo LDA (Latent Driclet Allocation)
 
 #### Notas:
-Este programa está hecho para funcionar específicamente con el dataset "All the news" previsto por Kaggle (https://www.kaggle.com/snapcrack/all-the-news/data)
-Encontrará subsets de datos en la carpeta **data**
+Este programa estÃ¡ hecho para funcionar especÃ­camente con el dataset "All the news" previsto por Kaggle (https://www.kaggle.com/snapcrack/all-the-news/data)
+EncontrarÃ© subsets de datos en la carpeta **data**
 
-### Ejecución:
-Este programa debe ser ejecutado en el framework de computación Spark en la versión 2.3 utilizando Python en su versión 3.6 mediante el siguiente comando, y estando ubicado en la carpeta **src**:
+### EjecuciÃ³n:
+Este programa debe ser ejecutado en el framework de computaciÃ³n Spark en la versiÃ³n 2.3 utilizando Python en su versiÃ³n 3.6 mediante el siguiente comando, y estando ubicado en la carpeta **src**:
 <rawtext>
 spark-submit newsLDA.py \<path> [options]
 </rawtext>
-Donde \<path> represneta la dirección del archivo que se quiere procesar
+Donde \<path> represneta la direcciÃ³n del archivo que se quiere procesar
 
 Las opciones que acepta el programa son las siguientes:
 | comando | explicacion |
 | --------- | --- |
-| -k=n | Especifica el número de clusters en los que se clasificarán las noticias. |
+| -k=n | Especifica el nÃºmero de clusters en los que se clasificarÃ³n las noticias. Default = 10. |
 | -p=\<path> | Persiste datos de procesamiento en el directorio dado. Agiliza ejecuciones que usan las mismas bases. |
-| -r | Reemplaza los datos almacenados para una nueva ejecución. -p es requerido. |
-| -a | Imprime todos los resultados de la ejecución: Noticias con su relación en cada cluster y los datos de los tópicos. |
+| -r | Reemplaza los datos almacenados para una nueva ejecuciÃ³n. -p es requerido. |
+| -a | Imprime todos los resultados de la ejecuciÃ³n: Noticias con su relaciÃ³n en cada cluster y los datos de los temas. |
 | -c=n | Imprime las noticias relacionadas con el cluster dado. |
