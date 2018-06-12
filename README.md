@@ -22,5 +22,3 @@ Las opciones que acepta el programa son las siguientes:
 | -r | Reemplaza los datos almacenados para una nueva ejecución. -p es requerido. |
 | -a | Imprime todos los resultados de la ejecución: Noticias con su relación en cada cluster y los datos de los tópicos. |
 | -c=n | Imprime las noticias relacionadas con el cluster dado. |
-
-> Written with [StackEdit](https://stackedit.io/).
